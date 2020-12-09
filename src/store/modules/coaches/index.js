@@ -6,6 +6,7 @@ export default {
     namespaced: true,
     state() {
         return {
+            //userIsCoach: false,
             lastFetch: null,
             coaches: [
                 {
@@ -20,14 +21,14 @@ export default {
                 {
                     id: 'c2',
                     firstName: 'Julie',
-                    lastName: 'Jones',
+                    lastName: 'Jones', 
                     areas: ['frontend', 'career'],
                     description:
                         'I am Julie and as a senior developer in a big tech company, I can help you get your first job or progress in your current role.',
                     hourlyRate: 30
                 }
             ]
-        };
+        }; 
     },
     mutations: mutations,
     actions: actions,
